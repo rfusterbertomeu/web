@@ -316,11 +316,13 @@ figcaption {
     gap: 20px;
 }
 
+.menu a,
 .col_4 a,
 .llista a:hover {
     color: rgb(93, 95, 121);
 }
 
+.menu a:hover,
 .llista a,
 .col_4 a:hover,
 .menu_vertical a,
