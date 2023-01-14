@@ -357,7 +357,8 @@ figcaption {
 .col_4 a,
 .menu_vertical a:hover,
 .row div:nth-child(3) a:hover,
-.llista a:hover {
+.llista a:hover,
+.iniciatives a:hover {
     color: rgb(93, 95, 121);
 }
 
