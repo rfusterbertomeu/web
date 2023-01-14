@@ -11,7 +11,7 @@ html a {
 }
 
 /** DISPOSITIU MÒBIL **/
-@media screen and (max-width: 55rem) {
+@media screen and (max-width: 43rem) {
     .container {
         margin-left: 2%;
         margin-right: 2%;
@@ -83,7 +83,7 @@ html a {
 }
 
 /** TABLET **/
-@media screen and (min-width: 56rem) and (max-width: 62rem) {
+@media screen and (min-width: 44rem) and (max-width: 62rem) {
     .container {
         margin-left: 10%;
         margin-right: 10%;
