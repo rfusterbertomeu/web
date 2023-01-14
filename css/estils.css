@@ -11,7 +11,7 @@ html a {
 }
 
 /** MARGES DISPOSITIU MÒBIL**/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .container {
         margin-left: 2%;
         margin-right: 2%;
@@ -58,7 +58,7 @@ html a {
 }
 
 /** MARGES TABLET**/
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 601px) and (max-width: 992px) {
     .container {
         margin-left: 10%;
         margin-right: 10%;
@@ -105,7 +105,7 @@ html a {
 }
 
 /** MARGES DESKTOP**/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 993px) {
     .container {
         margin-left: 20%;
         margin-right: 20%;
@@ -316,12 +316,14 @@ figcaption {
     gap: 20px;
 }
 
+#logotip a,
 .menu a,
 .col_4 a,
 .llista a:hover {
     color: rgb(93, 95, 121);
 }
 
+#logotip a:hover,
 .menu a:hover,
 .llista a,
 .col_4 a:hover,
