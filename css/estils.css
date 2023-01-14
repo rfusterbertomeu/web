@@ -11,71 +11,71 @@ html a {
 }
 
 /** DISPOSITIU MÒBIL **/
-@media screen and (max-width: 55rem) {
-    .container {
-        margin-left: 2%;
-        margin-right: 2%;
-    }
+@media screen and (max-width: 55rem) {}
 
-    img {
-        max-width: 100%;
-    }
+.container {
+    margin-left: 2%;
+    margin-right: 2%;
+}
 
-    .col_2 {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-auto-rows: auto;
-        gap: 0px;
-    }
+img {
+    max-width: 100%;
+}
 
-    .row,
-    .col_3 {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-auto-rows: auto;
-        gap: 10px;
-        text-align: left;
-    }
+.col_2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    gap: 0px;
+}
 
-    .col_4 {
-        display: grid;
-        max-width: 100%;
-        grid-template-columns: 1fr;
-        grid-auto-rows: minmax(100px, auto);
-        gap: 20px;
-    }
+.row,
+.col_3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    gap: 10px;
+    text-align: left;
+}
 
-    .menu_vertical>li {
-        display: inline-flex;
-    }
+.col_4 {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    gap: 20px;
+}
 
-    .menu_vertical>li:nth-child(odd):after {
-        content: "·";
-        margin-left: 0.3rem;
-        color: rgb(245, 157, 35);
-    }
+.menu_vertical>li {
+    display: inline-flex;
+}
 
-    .video {
-        height: 0;
-        overflow: hidden;
-        padding-bottom: 50%;
+.menu_vertical>li:nth-child(odd):after {
+    content: "·";
+    margin-left: 0.3rem;
+    color: rgb(245, 157, 35);
+}
 
-        position: relative;
-    }
+.video {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 50%;
 
-    iframe {
-        position: absolute;
-        height: 100%;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 0;
-        width: 100%;
-    }
+    position: relative;
+}
 
-    .peu_video {
-        padding-bottom: 10%;
-        padding-left: 5%;
-    }
+iframe {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    width: 100%;
+}
+
+.peu_video {
+    padding-bottom: 10%;
+    padding-left: 5%;
 }
 
 /** TABLET **/
