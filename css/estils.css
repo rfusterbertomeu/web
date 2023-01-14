@@ -259,6 +259,8 @@ footer a:hover {
 #button {
     background-color: rgb(240, 93, 80);
     color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
 }
 
 /** MENU **/
