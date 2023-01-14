@@ -411,6 +411,6 @@ dd {
     font-size: smaller;
 }
 
-.iniciatives dd:nth-child(even) {
-    margin-bottom: 3%;
+.iniciatives dt {
+    margin-top: 3%;
 }
